@@ -1,0 +1,9 @@
+main li:nth-child(3n-2) {
+    color: red;
+}
+main li:nth-child(3n-1) {
+    color: green;
+}
+main li:nth-child(3n) {
+    color: blue;
+}
