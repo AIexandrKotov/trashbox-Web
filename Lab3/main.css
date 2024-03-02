@@ -1,0 +1,78 @@
+body * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.debug {
+    visibility: hidden;
+}
+/**/
+
+.h2 td {
+    height: 100px;
+}
+.h5 td {
+    height: 250px;
+}
+.w25 {
+    width: 25%;
+}
+.w50 {
+    width: 50%;
+}
+
+div.win, div.death, a.start, div.game {
+    font-size: xx-large;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+a.start {
+    background-color: purple;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+div.win {
+    background-color: aquamarine;
+}
+
+div.death {
+    background-color: red;
+    color: white;
+}
+
+main table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main table td {
+    border: black solid 2px;
+    padding: 3px;
+}
+
+main table td img {
+    display: block;
+    margin: 0 auto;
+}
+main table td span {
+    display: block;
+    text-align: center;
+    color: black;
+}
+main table a, main table p {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.backtomain a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
