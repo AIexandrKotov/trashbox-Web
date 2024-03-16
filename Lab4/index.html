@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset='utf-8'>
+    <title>Lab 4</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="author" content="Emmet + VSC">
+    <meta name="keywords" content="Lorem example">
+    <meta name="description" content="Макет сайта со всеми нужными тегами">
+    <base href="./"/>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <ul>
+                <li><span><a href="#a1">Lorem, ipsum.</a></span></li>
+                <li><span><a href="#a2">Ratione, numquam.</a></span></li>
+                <li><span><a href="#a3">Itaque, eius.</a></span></li>
+                <li><span><a href="#a4">Quidem, nesciunt.</a></span></li>
+                <li><span><a href="#a5">Aut, ea.</a></span></li>
+                <li><span><a href="#a6">Non, adipisci.</a></span></li>
+                <li><span><a href="#a7">Aliquam, nemo.</a></span></li>
+                <li><span><a href="#a8">Iste, quisquam.</a></span></li>
+                <li><span><a href="#a9">Possimus, molestiae!</a></span></li>
+                <li><span><a href="#a10">Neque, soluta.</a></span></li>
+            </ul>
+        </nav>
+        <search>
+            <form action="./search/">
+              <label for="article">Or find an article</label>
+              <input type="search" id="article" name="q" />
+              <button type="submit">Search</button>
+            </form>
+        </search>
+        <div>
+            <span>Сейчас</span>
+            <time datetime="09:00">09:00</time>
+        </div>
+    </header>
+    <main class="container">
+        <h1>Lorem, ipsum.</h1>
+        <h2>Форматирование текста</h2>
+        <section>
+            <sub>снизу</sub>
+            <sup>сверху</sup>
+            <del>зачеркнутый</del>  <!--s - в строке-->
+            <ins>подчеркнутый</ins> <!--u - в строке-->
+            <kbd>Обозначение</kbd> + <kbd>клавиш</kbd>
+            <mark>посвеченный</mark>
+            <strong>жирный</strong> <!--b - в строке-->
+            <em>курсив</em>         <!--i - в строке-->
+            <cite><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite">Обозначение источника</a></cite>
+            <br/>Переменные: <var>y = 21</var>, <var>z = 2</var>
+            <br/>Формула/код: <code>x = y * z</code> =
+            <output>42</output>
+            <br/><dfn>Определенное<wbr/>понятие</dfn> <!--wbr - возможность разрыва слова-->
+            <br/><samp>Вывод из программы<br/>01100100010101011101010</samp>
+            <br/><abbr>HTML5</abbr>, <abbr>CSS3</abbr>
+            <hr/><span>Тематическое разделение страницы</span>
+
+            <pre>Здесь       сохраняются           лишние отступы</pre>
+            <blockquote cite="index.html"> <!--q - в строке-->
+                <p>Здесь можно написать цитату.</p>
+                <div>— Автор, <cite>Источник</cite></div>
+              </blockquote>
+            <bdo dir="rtl">Измененная направленность текста</bdo> <!--Атрибут dir задаёт направление-->
+            <bdi>Здесь можно изолировать текст неизвестного направления</bdi>
+            <small>Маленький текст</small>
+
+              
+
+        </section>
+        <section>
+            <!--generator>((h2>(Lorem2))+section>(h3>(Lorem4))+Lorem)*10</-->
+            <h2 id="a1">Lorem, ipsum.</h2>
+            <section>
+                <h3>Lorem ipsum dolor sit.</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero architecto esse aliquid ratione, tenetur ut accusamus, natus labore, earum repudiandae explicabo sapiente harum reiciendis exercitationem. Omnis asperiores veniam maxime tempora.
+            </section>
+            <h2 id="a2">Ut, iure?</h2>
+            <section>
+                <h3>Aperiam soluta quod qui!</h3>
+                Expedita dolorem praesentium veritatis est omnis doloremque, amet officia aperiam rem culpa, quam nulla, quia odio? Beatae voluptate, ducimus, quam exercitationem modi qui velit neque molestiae obcaecati excepturi libero? Incidunt.
+            </section>
+            <h2 id="a3">Expedita, commodi?</h2>
+            <section>
+                <h3>Quia natus reprehenderit aliquid?</h3>
+                Cumque debitis asperiores, rerum repellat quisquam iusto inventore id, necessitatibus, ullam itaque fugit laboriosam officiis harum. Quo, atque quod inventore earum dolores placeat minima animi enim dolorum soluta vel itaque.
+            </section>
+            <h2 id="a4">Voluptatibus, veritatis.</h2>
+            <section>
+                <h3>Iste perferendis molestias corrupti.</h3>
+                Esse, magni quos! Voluptatibus recusandae illum quo tenetur velit? Dicta tempora in molestiae corporis architecto quaerat sunt. Repellendus earum excepturi cumque adipisci corporis in, voluptate ea nesciunt! Totam, vel quo?
+            </section>
+            <h2 id="a5">Repellat, velit?</h2>
+            <section>
+                <h3>Architecto sequi rerum perferendis.</h3>
+                Numquam aperiam ipsa ex dolores eveniet id impedit similique placeat mollitia laborum delectus minus adipisci omnis, molestias cum veniam qui eum quod dolorem inventore voluptates est. Ipsa doloremque soluta velit?
+                <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, voluptate.</aside>
+            </section>
+            <h2 id="a6">Hic, esse.</h2>
+            <section>
+                <h3>Repellat saepe expedita illo?</h3>
+                Quam maiores placeat molestiae accusamus qui mollitia vitae, distinctio, ullam sit ipsa tempore expedita adipisci voluptatum deleniti id omnis eos enim ea obcaecati cupiditate ex eligendi. Accusamus possimus rem tempora.
+            </section>
+            <h2 id="a7">Tempore, voluptas.</h2>
+            <section>
+                <h3>Quod est sed deleniti!</h3>
+                Veniam labore eveniet harum quae porro doloribus atque eius facere quisquam modi. Eos voluptatibus delectus molestiae natus temporibus optio, sint placeat alias quo praesentium reprehenderit ducimus corporis repellendus dolor id?
+            </section>
+            <h2 id="a8">Quasi, animi!</h2>
+            <section>
+                <h3>Fugit, optio molestiae? Reprehenderit.</h3>
+                Voluptatibus explicabo fugit non, molestias quaerat aspernatur expedita ut. Sit natus omnis asperiores in architecto quaerat nemo, eius, fugit similique porro voluptatum molestiae placeat voluptas facilis quo molestias quis aut.
+                <aside>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste, velit.</aside>
+            </section>
+            <h2 id="a9">Sunt, molestiae.</h2>
+            <section>
+                <h3>Magnam illo quae eligendi.</h3>
+                Consequatur iure modi nemo odio tempora! Sed, error fugiat! Eaque, recusandae hic excepturi debitis quaerat maiores doloremque optio quisquam voluptatum ab repudiandae dignissimos veritatis aspernatur amet voluptas! Autem, aliquid cupiditate.
+            </section>
+            <h2 id="a10">Rerum, aliquam.</h2>
+            <section>
+                <h3>Voluptatem optio facilis rerum!</h3>
+                Labore eum nesciunt placeat odit et sed sequi velit corporis soluta voluptatem, nisi quam voluptates quis deserunt, veritatis temporibus enim tempora reiciendis ratione ducimus optio. Deleniti, assumenda. Voluptatibus, ad officia!
+                <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, doloremque.</aside>
+            </section>
+        </section>
+        <div class="container">
+            <noindex>Исключённый из индексации поисковиками текст</noindex>
+
+            <table>
+                <tbody>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" colspan="2"></td>
+                        <td rowspan="2" colspan="2"></td>
+                        <td colspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>
+                        </td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            Unordered list<br/>
+                            <ul>
+                                <li>A</li>
+                                <li>B</li>
+                                <li>C</li>
+                                <li>D</li>
+                            </ul></td>
+                        <td>Ordered list<br/>
+                            <ol>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ol>
+                        </td>
+                        <td>
+                            Selector<br/>
+                            <select name="" id="">
+                                <option value="">A</option>
+                                <option value="">B</option>
+                                <option value="">C</option>
+                                <option value="">D</option>
+                            </select>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer class="container">
+        <div>
+            <span>Источники: </span>
+            <ul>
+                <li>
+                    <data value="24">XXX</data>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <data value="25">YYY</data>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <data value="26">ZZZ</data>
+                </li>
+            </ul>
+        </div>
+        <article>Ъ заявил</article>
+        <article>Ы подтвердил</article>
+        <article>Ь рассказал</article>
+        <p>Contact the author of this page:</p>
+
+        <address>
+        <a href="mailto:test@gmail.com">test@gmail.com</a><br />
+        <a href="tel:+71234567890">+7-123-456‑7890</a>
+        </address>
+
+    </footer>
+</body>
+</html>

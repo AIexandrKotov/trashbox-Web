@@ -1,0 +1,113 @@
+body * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header, footer {
+    margin: 0 auto;
+    top: 0px;
+    text-align: center;
+}
+footer > article {
+    font-size: 200%;
+    display: inline-block;
+    width: 250px;
+    color: blue;
+}
+header li {
+    display: inline-block;
+}
+h2 {
+    color: red;
+}
+h3 {
+    color: green
+}
+aside {
+    background-color: lightgrey;
+}
+
+kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow:
+      0 1px 1px rgba(0, 0, 0, 0.2),
+      0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+    color: #333;
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+}
+var {
+    font-weight: bold;
+}  
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+}
+abbr {
+    color: orange;
+    font-weight: bold;
+}
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+  }
+  
+  hr::after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+  }
+
+table td, table th {
+    border: 2px solid black;
+}
+table ol {
+    list-style-type: upper-roman;
+    display: flex;
+    flex-direction: column-reverse;
+}
+table ol li {
+    flex: 0 0 auto;
+}
